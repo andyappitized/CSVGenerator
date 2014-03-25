@@ -1,0 +1,20 @@
+{
+    "name": "appitized/c-sv-generator",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andy Roberts",
+            "email": "andyroberts@appitized.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Appitized\\CSVGenerator": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
